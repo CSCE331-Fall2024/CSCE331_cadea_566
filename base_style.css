@@ -1,0 +1,286 @@
+
+
+ .Main{
+  border-radius: 8px;
+    position: absolute;
+    left: 10%;
+    top: 27%;
+    border-radius: 8px;
+    float: left;
+    width: auto;
+    height: auto;
+ }
+ 
+ .Self{
+    border-radius: 8px;
+    position: absolute;
+    left: 15%;
+    top: 20%;
+    border-radius: 8px;
+    float: left;
+    width: auto;
+    height: auto;
+} 
+
+.Service{
+    border-radius: 8px;
+    position: absolute;
+    left: 100px;
+    top: 190px;
+    border-radius: 8px;
+    float: left;
+    width: 35%;
+    height: 45%;
+}
+.Tech{
+  border-radius: 8px;
+    position: absolute;
+    left: 100px;
+    top: 170px;
+    border-radius: 8px;
+    float: left;
+    width: 35%;
+    height: 55%;
+}
+
+.button{
+  border: none;
+  padding: 16px 32px;
+  text-align: center;
+  display: inline-block;
+  color:white;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1{
+  background-color: silver;
+  color: black;
+  position: absolute;
+  top: 24%;
+  left: 33.5%;
+  width: 32.8%;
+}
+.button2{
+  background-color: silver;
+  color: black;
+  position: absolute;
+  top: 24%;
+  left: 28.5%;
+  height: 50.8%;
+  width: 5%;
+  word-wrap: break-word;
+}
+.button3{
+  background-color: silver;
+  color: black;
+  position: absolute;
+  top: 24%;
+  left:66.3%;
+  height: 50.8%;
+  width: 5%;
+  word-wrap: break-word;
+}
+.button4{
+  background-color: silver;
+  color: black;
+  position: absolute;
+  top: 67.5%;
+  left: 33.5%;
+  width: 32.8%;
+}
+.button5{
+  background-color: silver;
+  color: black;
+  size: fixed;
+  position: absolute;
+  top: 90%;
+  left: 7%
+  
+}
+.button6{
+  background-color: silver;
+  color: black;
+  size: fixed;
+  position: absolute;
+  top: 90%;
+  left: 17%
+  
+}
+.button7{
+  background-color: silver;
+  color: black;
+  size: fixed;
+  position: absolute;
+  top: 90%;
+  left: 28%
+  
+}
+.button8{
+  background-color: silver;
+  color: black;
+  size: fixed;
+  position: absolute;
+  top: 90%;
+  left: 26.6%
+  
+}
+
+.button1:hover{
+  background-color: blue;
+  
+}
+.button2:hover{
+  background-color: red
+}
+.button3:hover{
+  background-color: #04AA6D;
+}
+.button4:hover{
+  background-color: rgb(234, 2, 238);
+  color: black;
+}
+.button5:hover{
+  background-color: black;
+  color: white;
+}
+.button6:hover{
+  background-color: black;
+  color: white;
+}
+.button7:hover{
+  background-color: black;
+  color: white;
+}
+.button8:hover{
+  background-color: black;
+  color: white;
+}
+
+.Words{
+  background-color: rgba(255,255,255, 0.7);
+  
+  font-weight: bold;
+  border: 3px solid #332c2c;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 30%;
+  height: 30%;
+  padding: 20px;
+  text-align: match-parent;
+  z-index: 1;
+  
+}
+.textbox{
+  background-color: rgba(255,255,255, 0.7);
+  
+  font-weight: bold;
+  border: 3px solid #332c2c;
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 50%;
+  height: 70%;
+  padding: 20px;
+  text-align: match-parent;
+  z-index: 1;
+  
+}
+.PageHead{
+  position: absolute;
+  top: 15%;
+  left: 52%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+}
+
+h1{
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+}
+h2{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+}
+h3{
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+}
+.Desc_Text{
+  position: absolute;
+  top: 12%;
+  word-wrap: break-word;
+}
+.LinkHead{
+  position: absolute;
+  top: 68%;
+}
+.Link1{
+  position: absolute;
+  top: 75%;
+}
+.Link2{
+  position: absolute;
+  top: 80%;
+}
+.Link3{
+  position: absolute;
+  top: 85%;
+}
+.Link4{
+  position: absolute;
+  top: 90%;
+}
+.p1{
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  z-index: 1;
+}
+.p2{
+  position: absolute;
+  top: 53%;
+  left: 35%;
+  z-index: 1;
+}
+.p3{
+  position: absolute;
+  top: 56%;
+  left: 35%;
+  z-index: 1;
+}
+.p4{
+  position: absolute;
+  top: 59%;
+  left: 35%;
+  z-index: 1;
+}
+body{
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.resume{
+  position: absolute;
+  top: 100%;
+  left: 0%;
+  width: 101%;
+  height: 100%;
+}
