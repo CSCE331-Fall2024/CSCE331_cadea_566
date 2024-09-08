@@ -1,6 +1,6 @@
 
 
-.Main{
+    .Main_img{
     content: url('duck_me.PNG');
       border-radius: 8px;
       position: absolute;
@@ -12,7 +12,7 @@
       height: 420px;
    }
    
-   .Self{
+   .Self_img{
       border-radius: 8px;
       position: absolute;
       right: 16%;
@@ -23,7 +23,7 @@
       height: auto;
   } 
   
-  .Service{
+  .Service_img{
       border-radius: 8px;
       position: absolute;
       right: 5%;
@@ -33,7 +33,7 @@
       width: 35%;
       height: 45%;
   }
-  .Tech{
+  .Tech_img{
     border-radius: 8px;
       position: absolute;
       right: 5%;
@@ -56,7 +56,7 @@
     cursor: pointer;
   }
   
-  .button1{
+  .landingButton1{
     background-color: rgba(0,0,0,0.5);
     color: white;
     position: absolute;
@@ -68,7 +68,7 @@
     border-radius: 10%;
     
   }
-  .button2{
+  .landingButton2{
     background-color: rgba(0,0,0,0.5);
     color: white;
     position: absolute;
@@ -80,7 +80,7 @@
     border: 3px black;
     border-radius: 10%;
   }
-  .button3{
+  .landingButton3{
     background-color: rgba(0,0,0,0.5);
     color: white;
     position: absolute;
@@ -92,7 +92,7 @@
     border: 3px black;
     border-radius: 10%;
   }
-  .button4{
+  .landingButton4{
     background-color: rgba(0,0,0,0.5);
     color: white;
     position: absolute;
@@ -103,7 +103,7 @@
     border: 3px black;
     border-radius: 10%;
   }
-  .button5{
+  .pageButton1{
     background-color: rgba(0,0,0,0.5);
     color: white;
     size: fixed;
@@ -112,7 +112,7 @@
     left: 22%
     
   }
-  .button6{
+  .pageButton2{
     background-color: rgba(0,0,0,0.5);
     color: white;
     size: fixed;
@@ -121,7 +121,7 @@
     left: 15%
     
   }
-  .button7{
+  .pageButton3{
     background-color: rgba(0,0,0,0.5);
     color: white;
     size: fixed;
@@ -130,7 +130,7 @@
     left: 28.7%
     
   }
-  .button8{
+  .pageButton4{
     background-color: rgba(0,0,0,0.5);
     color: white;
     size: fixed;
@@ -139,7 +139,7 @@
     left: 30%
     
   }
-  .button9{
+  .styleButton1{
     background-color: silver;
     color: black;
     size: fixed;
@@ -147,7 +147,7 @@
     bottom: 10%;
     right: 16%;
   }
-  .button10{
+  .styleButton2{
     background-color: silver;
     color: black;
     size: fixed;
@@ -155,7 +155,7 @@
     bottom: 30%;
     right: 16%;
   }
-  .button11{
+  .styleButton3{
     background-color: silver;
     color: black;
     size: fixed;
@@ -164,38 +164,38 @@
     right: 16%;
   }
   
-  .button1:hover{
+  .landingButton1:hover{
     background-color: blue;
     
   }
-  .button2:hover{
+  .landingButton2:hover{
     background-color: red
   }
-  .button3:hover{
+  .landingButton3:hover{
     background-color: #04AA6D;
   }
-  .button4:hover{
+  .landingButton4:hover{
     background-color: rgb(234, 2, 238);
     color: black;
   }
-  .button5:hover{
+  .pageButton1:hover{
     background-color: black;
     color: white;
   }
-  .button6:hover{
+  .pageButton2:hover{
     background-color: black;
     color: white;
   }
-  .button7:hover{
+  .pageButton3:hover{
     background-color: black;
     color: white;
   }
-  .button8:hover{
+  .pageButton4:hover{
     background-color: black;
     color: white;
   }
   
-  .Words{
+  .introText{
     background-color: rgba(0,0,0, 0.7);
     
     font-weight: bold;
@@ -322,9 +322,7 @@
   body{
       background-image: url('duck_bg.jpg');
       
-      background-attachment: fixed;
-      
-      
+      background-attachment: fixed;   
   }
   .resume{
     position: absolute;

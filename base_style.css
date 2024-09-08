@@ -1,6 +1,6 @@
 
 
- .Main{
+ .Main_img{
     content: url(whats_cookin_good_looking.jpg);
     border-radius: 8px;
     position: absolute;
@@ -12,7 +12,7 @@
     height: auto;
  }
  
- .Self{
+ .Self_img{
     border-radius: 8px;
     position: absolute;
     left: 15%;
@@ -23,7 +23,7 @@
     height: auto;
 } 
 
-.Service{
+.Service_img{
     border-radius: 8px;
     position: absolute;
     left: 90px;
@@ -33,7 +33,7 @@
     width: 35%;
     height: 45%;
 }
-.Tech{
+.Tech_img{
   border-radius: 8px;
     position: absolute;
     left: 100px;
@@ -56,7 +56,7 @@
   cursor: pointer;
 }
 
-.button1{
+.landingButton1{
   background-color: silver;
   color: black;
   position: absolute;
@@ -64,7 +64,7 @@
   left: 33.5%;
   width: 32.8%;
 }
-.button2{
+.landingButton2{
   background-color: silver;
   color: black;
   position: absolute;
@@ -74,7 +74,7 @@
   width: 5%;
   word-wrap: break-word;
 }
-.button3{
+.landingButton3{
   background-color: silver;
   color: black;
   position: absolute;
@@ -84,7 +84,7 @@
   width: 5%;
   word-wrap: break-word;
 }
-.button4{
+.landingButton4{
   background-color: silver;
   color: black;
   position: absolute;
@@ -92,7 +92,7 @@
   left: 33.5%;
   width: 32.8%;
 }
-.button5{
+.pageButton1{
   background-color: silver;
   color: black;
   size: fixed;
@@ -101,7 +101,7 @@
   left: 7%
   
 }
-.button6{
+.pageButton2{
   background-color: silver;
   color: black;
   size: fixed;
@@ -110,7 +110,7 @@
   left: 17%
   
 }
-.button7{
+.pageButton3{
   background-color: silver;
   color: black;
   size: fixed;
@@ -119,7 +119,7 @@
   left: 28%
   
 }
-.button8{
+.pageButton4{
   background-color: silver;
   color: black;
   size: fixed;
@@ -128,7 +128,7 @@
   left: 26.6%
   
 }
-.button9{
+.styleButton1{
   background-color: silver;
   color: black;
   size: fixed;
@@ -136,7 +136,7 @@
   bottom: 17%;
   left: 15%;
 }
-.button10{
+.styleButton2{
   background-color: silver;
   color: black;
   size: fixed;
@@ -144,7 +144,7 @@
   bottom: 20%;
   left: 15%;
 }
-.button11{
+.styleButton3{
   background-color: silver;
   color: black;
   size: fixed;
@@ -153,38 +153,38 @@
   left: 10%;
 }
 
-.button1:hover{
+.landingButton1:hover{
   background-color: blue;
   
 }
-.button2:hover{
+.landingButton2:hover{
   background-color: red
 }
-.button3:hover{
+.landingButton3:hover{
   background-color: #04AA6D;
 }
-.button4:hover{
+.landingButton4:hover{
   background-color: rgb(234, 2, 238);
   color: black;
 }
-.button5:hover{
+.pageButton1:hover{
   background-color: black;
   color: white;
 }
-.button6:hover{
+.pageButton2:hover{
   background-color: black;
   color: white;
 }
-.button7:hover{
+.pageButton3:hover{
   background-color: black;
   color: white;
 }
-.button8:hover{
+.pageButton4:hover{
   background-color: black;
   color: white;
 }
 
-.Words{
+.introText{
   background-color: rgba(255,255,255, 0.7);
   
   font-weight: bold;
