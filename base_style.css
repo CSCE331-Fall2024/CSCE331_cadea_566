@@ -1,10 +1,11 @@
 
 
  .Main{
-  border-radius: 8px;
+    content: url(whats_cookin_good_looking.jpg);
+    border-radius: 8px;
     position: absolute;
     left: 10%;
-    top: 27%;
+    top: 20%;
     border-radius: 8px;
     float: left;
     width: auto;
@@ -25,8 +26,8 @@
 .Service{
     border-radius: 8px;
     position: absolute;
-    left: 100px;
-    top: 190px;
+    left: 90px;
+    top: 120px;
     border-radius: 8px;
     float: left;
     width: 35%;
@@ -36,7 +37,7 @@
   border-radius: 8px;
     position: absolute;
     left: 100px;
-    top: 170px;
+    top: 120px;
     border-radius: 8px;
     float: left;
     width: 35%;
@@ -126,6 +127,30 @@
   top: 90%;
   left: 26.6%
   
+}
+.button9{
+  background-color: silver;
+  color: black;
+  size: fixed;
+  position: absolute;
+  bottom: 17%;
+  left: 15%;
+}
+.button10{
+  background-color: silver;
+  color: black;
+  size: fixed;
+  position: absolute;
+  bottom: 20%;
+  left: 15%;
+}
+.button11{
+  background-color: silver;
+  color: black;
+  size: fixed;
+  position: absolute;
+  bottom: 20%;
+  left: 10%;
 }
 
 .button1:hover{
@@ -279,8 +304,8 @@ body{
 }
 .resume{
   position: absolute;
-  top: 100%;
-  left: 0%;
-  width: 101%;
-  height: 100%;
+  top: 90%;
+  left: 40%;
+  width: auto;
+  height: auto;
 }
