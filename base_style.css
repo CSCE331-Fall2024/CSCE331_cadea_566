@@ -236,7 +236,7 @@ h1{
 h2{
   position: absolute;
   top: 40%;
-  left: 50%;
+  left: 47%;
   transform: translate(-50%, -50%);
   z-index: 3;
 }
@@ -308,4 +308,9 @@ body{
   left: 40%;
   width: auto;
   height: auto;
+}
+.GitHub{
+  color: orange;
+  position: absolute;
+  left: 105%;
 }

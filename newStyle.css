@@ -249,7 +249,7 @@
   h2{
     position: absolute;
     top: 25%;
-    left: 28%;
+    left: 25%;
     transform: translate(-50%, -50%);
     z-index: 3;
     color: white;
@@ -330,4 +330,9 @@
     left: 60%;
     width: 35%;
     height: auto;
+  }
+  .GitHub{
+    color: orange;
+    position: absolute;
+    left: 105%;
   }
